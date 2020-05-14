@@ -16,7 +16,7 @@ You will be able to design indices, types and maps for your application to lever
 
 ## Table of Contents
 
-- [01. Get data from Elasticsearch]()
+- [01. Get data from Elasticsearch](01-get-data-from-elasticsearch.md)
 - [02. Get data from Elasticsearch by id using the Elasticsearch npm client]()
 - [03. Add data to Elasticsearch]()
 - [04. Update data in Elasticsearch]()
