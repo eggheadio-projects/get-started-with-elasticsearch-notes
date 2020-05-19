@@ -16,6 +16,7 @@ You will be able to design indices, types and maps for your application to lever
 
 ## Table of Contents
 
+- [00. Environment Setup](00-environment-setup.md)
 - [01. Get data from Elasticsearch](01-get-data-from-elasticsearch.md)
 - [02. Get data from Elasticsearch by id using the Elasticsearch npm client]()
 - [03. Add data to Elasticsearch]()
