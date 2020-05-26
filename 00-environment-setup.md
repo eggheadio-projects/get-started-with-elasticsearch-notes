@@ -15,7 +15,7 @@ Once you have insured that you have Docker and Elasticsearch on your local machi
 
 ## Having Environment Issues?
 
-Don't worry, I also came across a few issues while setting up my local environment. Thankfully a few people have commented on how to fix the issues I delt with within the comments of the course's [first section](https://egghead.io/lessons/elasticsearch-get-data-from-elasticsearch-by-id-using-http).
+Don't worry, I also came across a few issues while setting up my local environment. There have been a few updates to Elasticsearch since the creation of this course, so we need to accomodate those changes by updating our environment code. Thankfully a few people have commented on how to fix the issues I delt with within the comments of the course's [first section](https://egghead.io/lessons/elasticsearch-get-data-from-elasticsearch-by-id-using-http).
 
 Now let's jump into the issues I had in hopes that they'll help you.
 
