@@ -1,6 +1,6 @@
 # [01. Get Data From Elasticsearch by id Using HTTP](https://egghead.io/lessons/elasticsearch-get-data-from-elasticsearch-by-id-using-http)
 
-### Basic HTTP GET Request Using `id`
+## Basic HTTP GET Request Using `id`
 
 We use the `curl` command to execute a `HTTP GET` request against the Elasticsearch cluster to receive documents. 
 
@@ -22,7 +22,7 @@ to recieve a neat and easily readable JSON object in the terminal.
 
 ![terminal screenshot of tidy JSON response from HTTP request using jq . command](images/initial-curl-command-with-jq.png)
 
-Within this JSON response we have the document `_id` and `_version`. The `_version` is automatically incremented anytime the document is updated within Elasticsearch. We also have the `found` object which has a boolean value and represents whether the document exists within the Elasticsearch cluster. 
+Within this JSON response we have the document `_id` and `_version`. The `_version` is automatically incremented anytime the document is updated within Elasticsearch. We also have the `found` object which has a `boolean` value and represents whether the document exists within the Elasticsearch cluster. 
 
 The `_source` object within the JSON response often houses the bulk of the information we're normally looking for when creating the HTTP request. In this case, it is details (episode title, original air date, etc.) about the specific Simpsons episode that we requested.
 
@@ -32,7 +32,7 @@ If we only wanted to receive the episode details found within the `_source` obje
 $ curl -s http://localhost:9200/simpsons/episode/1/_source | jq .
 ```
 
-### Adding Query String Parameters
+## Adding Query String Parameters
 
 We can add query string parameters to exclude specific fields, such as the `video_url`, by adding the `_source_excludes=` parameter. This request would look like the following:
 
