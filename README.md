@@ -22,7 +22,7 @@ You will be able to design indices, types and maps for your application to lever
 - [03. Add data to Elasticsearch](03-add-data-to-elasticsearch.md)
 - [04. Update data in Elasticsearch](04-update-data-in-elasticsearch.md)
 - [05. Search for data in Elasticsearch using the _search endpoint](05-search-for-data-in-elasticsearch-using-the-_search-endpoint.md)
-- [06. Paginate through search results in Elasticsearch]()
+- [06. Paginate through search results in Elasticsearch](06-paginate-through-search-results-in-elasticsearch.md)
 - [07. Search Elasticsearch using Query Parameters]()
 - [08. Search for data in Elasticsearch using queryDSL language]()
 - [09. Search for data in Elasticsearch using full text search]()
