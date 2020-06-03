@@ -21,7 +21,7 @@ You will be able to design indices, types and maps for your application to lever
 - [02. Get data from Elasticsearch by id using the Elasticsearch npm client](02-get-data-from-elasticsearch-by-id-using-elasticsearch-npm-client.md)
 - [03. Add data to Elasticsearch](03-add-data-to-elasticsearch.md)
 - [04. Update data in Elasticsearch](04-update-data-in-elasticsearch.md)
-- [05. Search for data in Elasticsearch using the _search endpoint]()
+- [05. Search for data in Elasticsearch using the _search endpoint](05-search-for-data-in-elasticsearch-using-the-_search-endpoint.md)
 - [06. Paginate through search results in Elasticsearch]()
 - [07. Search Elasticsearch using Query Parameters]()
 - [08. Search for data in Elasticsearch using queryDSL language]()
