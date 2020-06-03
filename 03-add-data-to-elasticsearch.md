@@ -42,7 +42,7 @@ Using `op_type` (query parameter) or `_create` (API endpoint) will only index th
 
 `?op_type`
 ```bash
-$ curl -XPUT -H 'Content-type: application/json' -d '{"title": "Error handling in Elasticsearch", "summary": "Error handling is for wimps", "views": "1000"}' localhost:9200/egghead/lessons/5?op_type=create
+$ curl -XPUT -H 'Content-type: application/json' -d '{"title": "Error handling in Elasticsearch", "summary": "Error handling is for wimps", "views": "1000"}' 'localhost:9200/egghead/lessons/5?op_type=create'
 ```
 
 `_create`
