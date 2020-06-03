@@ -40,7 +40,7 @@ With this, we'll either receive an `HTTP 200` response back (successful -- the d
 
 Using `op_type` (query parameter) or `_create` (API endpoint) will only index the document if it doesn't already exist which makes them the optimal choice when working with high volume systems. If a document with the `_id` we are trying to use already exists, then the operation will fail and we'll receive an `HTTP 409` error. If it doesn't exist, we'll receive an `HTTP 201` response and our document will have been indexed.
 
-`op_type`
+`?op_type`
 ```bash
 $ curl -XPUT -H 'Content-type: application/json' -d '{"title": "Error handling in Elasticsearch", "summary": "Error handling is for wimps", "views": "1000"}' localhost:9200/egghead/lessons/5?op_type=create
 ```
@@ -55,4 +55,5 @@ $ curl -XPUT -H 'Content-type: application/json' -d '{"title": "Error handling i
 ### Resources
 
 [String Content-Type Checking for Elasticsearch REST Requests](https://www.elastic.co/blog/strict-content-type-checking-for-elasticsearch-rest-requests)
+<br>
 [Index API](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html)
