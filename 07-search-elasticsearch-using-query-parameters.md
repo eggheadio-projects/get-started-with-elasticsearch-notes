@@ -7,7 +7,7 @@ To find all documents that have 'Homer' in the title, we could do the following:
 $ curl -s 'localhost:9200/_all/episode/_search?q=title:Homer'
 ```
 
-To find all documents that have 'Homer' in the title from season 5, we could use the following command:
+To find all documents that have 'Homer' in the title from season 5, we could use the following command using [URL encoding](https://www.w3schools.com/tags/ref_urlencode.ASP):
 ```bash
 $ curl -s 'localhost:9200/_all/episode/_search?q=%2Btitle%3AHomer+%2Bseason%3A5'
 ```
@@ -23,4 +23,5 @@ Which is equivalent to: `q=+title:(Homer+Bart)++imdb_rating:>8`
 
 ### Resources 
 
-[Query String Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)
+[Query String Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html)<br>
+[HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.ASP)
