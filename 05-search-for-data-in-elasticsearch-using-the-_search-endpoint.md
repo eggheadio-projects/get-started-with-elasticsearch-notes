@@ -1,4 +1,4 @@
-# [04. Search for Data in Elasticsearch Using the `_search` Endpoint](https://egghead.io/lessons/tools-search-for-data-in-elasticsearch-using-the-_search-endpoint)
+# [05. Search for Data in Elasticsearch Using the `_search` Endpoint](https://egghead.io/lessons/tools-search-for-data-in-elasticsearch-using-the-_search-endpoint)
 
 The Elasticsearch `_search` API endpoint allows one to execute a search query and receive search hits that match the query as the result.
 ```bash

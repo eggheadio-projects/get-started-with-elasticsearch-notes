@@ -1,4 +1,4 @@
-# [03. Update Data in Elasticsearch](https://egghead.io/lessons/tools-update-data-in-elasticsearch)
+# [04. Update Data in Elasticsearch](https://egghead.io/lessons/tools-update-data-in-elasticsearch)
 
 ## Important Notes
 
