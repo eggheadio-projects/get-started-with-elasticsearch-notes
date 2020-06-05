@@ -1,0 +1,1 @@
+# [08. Search for Data in Elasticsearch Using QueryDSL Language](https://egghead.io/lessons/tools-search-for-data-in-elasticsearch-using-querydsl-language)

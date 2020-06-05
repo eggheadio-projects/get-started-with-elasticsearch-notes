@@ -24,7 +24,7 @@ You will be able to design indices, types and maps for your application to lever
 - [05. Search for data in Elasticsearch using the _search endpoint](05-search-for-data-in-elasticsearch-using-the-_search-endpoint.md) <!-- (no transcripts) -->
 - [06. Paginate through search results in Elasticsearch](06-paginate-through-search-results-in-elasticsearch.md)
 - [07. Search Elasticsearch using Query Parameters](07-search-elasticsearch-using-query-parameters.md)
-- [08. Search for data in Elasticsearch using queryDSL language]()
+- [08. Search for data in Elasticsearch using queryDSL language](08-search-for-data-in-elasticsearch-using-querydsl-language.md)
 - [09. Search for data in Elasticsearch using full text search]()
 - [10. Perform analytics using Elasticsearch aggregation queries]()
 - [11. Create an index using the Elasticsearch API]()
