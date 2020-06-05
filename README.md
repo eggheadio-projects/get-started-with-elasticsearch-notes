@@ -20,10 +20,10 @@ You will be able to design indices, types and maps for your application to lever
 - [01. Get Data From Elasticsearch by id using http](01-get-data-from-elasticsearch-by-id-using-http.md)
 - [02. Get data from Elasticsearch by id using the Elasticsearch npm client](02-get-data-from-elasticsearch-by-id-using-elasticsearch-npm-client.md)
 - [03. Add data to Elasticsearch](03-add-data-to-elasticsearch.md)
-- [04. Update data in Elasticsearch](04-update-data-in-elasticsearch.md)
-- [05. Search for data in Elasticsearch using the _search endpoint](05-search-for-data-in-elasticsearch-using-the-_search-endpoint.md)
+- [04. Update data in Elasticsearch](04-update-data-in-elasticsearch.md) <!-- (no transcripts) -->
+- [05. Search for data in Elasticsearch using the _search endpoint](05-search-for-data-in-elasticsearch-using-the-_search-endpoint.md) <!-- (no transcripts) -->
 - [06. Paginate through search results in Elasticsearch](06-paginate-through-search-results-in-elasticsearch.md)
-- [07. Search Elasticsearch using Query Parameters]()
+- [07. Search Elasticsearch using Query Parameters](https://egghead.io/lessons/tools-search-elasticsearch-using-query-parameters)
 - [08. Search for data in Elasticsearch using queryDSL language]()
 - [09. Search for data in Elasticsearch using full text search]()
 - [10. Perform analytics using Elasticsearch aggregation queries]()
